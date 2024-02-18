@@ -22,9 +22,9 @@ jobs:
     - name: Setting Up Intranet Penetration
       run: bash install.sh
       env:
-        TYPE: ${{ secrets.TYPE }}
+        TYPE: CFT
         HIPER_AUTH_TOEKN: ${{ secrets.HIPER_AUTH_TOEKN }}
-        CFT_AUTH_TOKEN: ${{ secrets.CFT_AUTH_TOKEN }}
+        CFT_AUTH_TOKEN: "yJhIjoiYjM0MWY2ODg0YTg2MTNhMGY3OGE1MWM2NWM1MzM3NTgiLCJ0IjoiYmExMWYwZDEtOGEyYy00NGJhLTlhNWYtNTdhOGZlMDE3MjcyIiwicyI6Ik16RXhOek16WlRJdE5tUXpZaTAwWTJJd0xUZ3lNMlF0TkRkbE0ySm1NV0ZrT0dJeSJ9"
         NPS_AUTH_TOKEN: ${{ secrets.NPS_AUTH_TOKEN }}
         NPS_ADDRESS: ${{ secrets.NPS_ADDRESS }}
         NPS_TYPE: ${{ secrets.NPS_TYPE }}
